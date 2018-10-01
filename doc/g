@@ -1,0 +1,3 @@
+TGraph *gr = new TGraph ("text.txt");
+gr->GetXaxis()->SetTitle("something");
+gr->Draw();
